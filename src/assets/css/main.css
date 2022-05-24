@@ -1,0 +1,842 @@
+@import './colors.css';
+
+body {
+  background-color: 'grey-color';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+#landing-page {
+  background-color: #F5F5F5;
+  text-align: center;
+  align-items: center;
+  text-align: -webkit-center;
+}
+
+.landing-page-card {
+  width: 1024px;
+  height: 600px;
+  border-radius: 20px !important;
+}
+
+.background-img {
+  margin-left: 10px;
+  background-color: black;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 600px;
+}
+
+.landing-page-img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 600px;
+}
+
+.login-form {
+  width: 400px;
+  margin: 10px;
+}
+
+.judul-login-admin {
+  padding: 10px !important;
+}
+
+.login-form-top {
+  margin-top: 40px !important;
+}
+
+.login-form-middle {
+  margin-top: 20px !important;
+}
+
+.login-form-bottom {
+  transform: translateY(140px);
+}
+
+.login-form-field {  
+  width: 90%;
+}
+
+.login-button {  
+  background-color: #7BD2F8 !important;
+  color: white !important;
+  font-size: 20px !important;
+  text-transform: none;
+}
+
+.register-button {  
+  background-color: #7DF87B !important;
+  color: white !important;
+  font-size: 20px !important;
+  text-transform: none;
+}
+
+.register-as-button {  
+  background-color: #7BD2F8 !important;
+  color: white !important;
+  font-size: 20px !important;
+  text-transform: none;
+}
+
+.cancel-button {  
+  background-color: #F87B7B !important;
+  color: white !important;
+  font-size: 20px !important;
+  text-transform: none;
+}
+
+.profil-coach-button {
+  position: absolute;
+  transform: translate(40%, -70%);
+  background-color: #7BD2F8 !important;
+  color: white !important;
+  font-size: 13px !important;
+  text-transform: none;
+}
+
+.profil-participant-button {
+  position: absolute;
+  transform: translate(10%, -130%);
+  background-color: #7BD2F8 !important;
+  color: white !important;
+  font-size: 13px !important;
+  text-transform: none;
+}
+
+.excel-button {  
+  background-color: #199F37 !important;
+  color: white !important;
+  font-size: 20px !important;
+  text-transform: none;
+}
+
+.pdf-button {  
+  background-color: #9F1919 !important;
+  color: white !important;
+  font-size: 20px !important;
+  text-transform: none;
+}
+
+.forget-pass {
+  margin-top: 10px;
+}
+
+.forget-pass-text {
+  color: #C4C4C4;
+  font-size: medium;
+}
+
+.forget-pass-text:hover {
+  cursor: pointer;
+  color: black;
+  font-size: medium;
+}
+
+.card-custom {
+  overflow-x: hidden;
+  width: 100%;
+  height: 600px;
+  border-radius: 10px !important;
+}
+
+.card-custom-detail-payment {
+  overflow-x: hidden;
+  width: 100%;
+  height: 400px;
+  border: 1px solid #C4C4C4 !important;
+}
+
+.card-custom-confirm-payment {
+  width: 100%;
+  height: 120px;
+  border: 1px solid #C4C4C4 !important;
+}
+
+.card-custom-upload-payment {  
+  width: 100%;
+  height: 200px;
+  border: 1px solid #C4C4C4 !important;
+}
+
+.card-custom-schedule {
+  overflow-x: hidden;
+  width: 100%;
+  height: 400px;
+  border-radius: 10px !important;
+}
+
+.card-custom-password {
+  overflow-x: hidden;
+  width: 100%;
+  height: 500px;
+  border-radius: 10px !important;
+}
+
+.tab-register {
+  margin-top: 10px;
+  border-top: 1px solid #C4C4C4;
+}
+
+.tab-register-active {
+  border-top: 5px solid #7BD2F8;
+  margin-top: 10px;
+  color: #7BD2F8;
+  width: 50%;
+  text-align: center;
+}
+
+.tab-register-inactive {
+  margin-top: 10px;
+  color: #C4C4C4;
+  width: 50%;
+  text-align: center;
+}
+
+.sidebar-logo {
+  margin: 30px;
+  max-height: 150px;
+  max-width: 150px;
+}
+
+.navbar-logo {
+  margin: 30px;
+  max-height: 30px;
+  max-width: 30px;  
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.navbar-style {
+  border-bottom: 2px solid #7BD2F8 !important;
+}
+
+.form-register {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.form-register-row {
+  height: 100px !important;
+}
+
+.form-upload-row {
+  height: 80px !important;
+}
+
+.form-register-coaching-clinic-row {
+  height: 50px !important;
+}
+
+.form-participant-profile-row {
+  height: 90px !important;
+}
+
+.form-register-row-desc {
+  height: 170px !important;
+}
+
+.form-register-row-img {
+  height: 300px !important;
+}
+
+.form-register-row-ubah-sandi {
+  height: 40px !important;
+}
+
+.ubah-sandi:hover {
+  color: #000000;
+  cursor: pointer;
+}
+
+
+.form-column {
+  padding: 0px;
+  padding-right: 15px;
+}
+
+.form-column-last {
+  padding: 0px;
+}
+
+.tab-form {
+  margin-top: 35px;
+}
+
+.tab-upload-form {
+  margin-top: 45px;
+}
+
+.btn-close {
+  color: #F87B7B !important;
+}
+
+.btn-add {
+  color: #7BD2F8 !important;
+}
+
+.btn-check {
+  color: #7DF87B !important;
+}
+
+.status-green-color {
+  background-color: #7DF87B !important;
+  color: #FFFFFF !important;
+}
+
+.status-yellow-color {
+  background-color: #F4F19F !important;
+  color: #FFFFFF !important;
+}
+
+.status-blue-color {
+  background-color: #7BD2F8 !important;
+  color: #FFFFFF !important;
+}
+
+.status-red-color {
+  background-color: #F87B7B !important;
+  color: #FFFFFF !important;
+  font-size: small !important;
+}
+
+.tipe-green-color {
+  background-color: #7DF87B !important;
+  color: #FFFFFF !important;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.tipe-orange-color {
+  background-color: #F5B75A !important;
+  color: #FFFFFF !important;
+  font-size: small !important;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.tipe-tosca-color {
+  background-color: #5AF5E3 !important;
+  color: #FFFFFF !important;
+  font-size: small !important;
+  text-align: center;
+  border-radius: 50px;  
+}
+
+.blue-border-color {  
+  color: #7BD2F8 !important;
+  font-size: small !important;
+  font-weight: 100;
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid #7BD2F8 !important;
+}
+
+.text-register-kuota {
+  padding: 10px !important;
+}
+
+.tipe-red-color {
+  color: #F87B7B !important;
+  font-size: small !important;
+  text-align: left;  
+}
+
+.table-content {
+  margin-top: 30px;
+}
+
+.loading-table {
+  height: 500px;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.loading-card {
+  height: 100%;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.img-border {
+  width: 100%;
+  height: 250px;
+}
+
+.img-border-upload {
+  width: 250px;
+  height: 250px;
+}
+
+.img-border-detail {
+  width: 100%;
+  height: 170px;
+}
+
+.img-border-dashboard {
+  width: 80px;
+  height: 80px;
+}
+
+.img-border-avatar {
+  width: 45px;
+  height: 45px;
+}
+
+.img-border-profil-coach {
+  width: 80%;
+  height: 220px;
+  transform: translateX(10%);
+}
+
+.img-border-dialog-payment-participant {
+  width: 90px;
+  height: 90px;  
+}
+
+.img-form-dialog-payment-participant {
+  transform: translateY(15px);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;  
+}
+
+.img-form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 100%;  
+}
+
+
+.img-form-detail {
+  transform: translateY(15px);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 100%;  
+}
+
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100% !important;
+  height: 100% !important;  
+}
+
+.img-coach-profil {
+  width: 20%;
+}
+
+.info-detail {
+  border-bottom: 1px solid #C4C4C4;
+  border-radius: 0px !important;
+}
+
+.info-title {
+  padding-top: 10px !important;
+  padding-bottom: 5px !important;
+}
+
+.detail-sidebar-color {
+  color: #FFFFFF !important;
+  background-color: #7BD2F8;
+}
+
+.enable-scroll-y {
+  overflow-x: hidden;
+  height: 60%;
+}
+
+.enable-scroll-module {
+  overflow-x: hidden;
+  height: 50%;
+}
+
+.enable-scroll-y-register {
+  overflow-x: hidden;
+  height: 70%;
+}
+
+.enable-scroll-y-beranda {
+  overflow-x: hidden;
+  height: 80%;
+}
+
+.enable-scroll-y-modul-my {
+  overflow-x: hidden;
+  height: 50%;
+}
+
+.enable-scroll-y-transaksi {
+  overflow-x: hidden;
+  height: 85%;
+}
+
+.enable-scroll-y-transaksi-pembayaran {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.enable-scroll-x {
+  white-space: nowrap;    
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 90%;
+}
+
+.achievement-card {
+  width: 100%;  
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.margin-pelayanan {
+  margin-left: -7px;
+}
+
+.btn-achievement {
+  font-size: 10px;
+}
+
+.img-border-coach-beranda {
+  width: 80px;
+  height: 80px;
+  transform: translateX(20%);
+}
+
+.img-border-assessment-detail {
+  width: 45px;
+  height: 45px;
+}
+
+.center-col {
+  place-self: center;
+}
+
+.img-border-rincian-payment {
+  width: 40px;
+  height: 40px; 
+}
+
+.img-border-kelas-beranda {
+  width: 150px;
+  height: 150px; 
+}
+
+.img-border-coach-verify {
+  width: 170px;
+  height: 170px; 
+}
+
+
+.img-border-kelas-detail {
+  width: 250px;
+  height: 250px;  
+}
+
+.img-border-kelas-my {
+  width: 220px;
+  height: 220px;  
+}
+
+
+.img-border-participant-profile {
+  width: 220px;
+  height: 220px;  
+}
+
+.img-border-coach-detail {
+  transform: translateY(15%);
+  width: 180px;
+  height: 180px;  
+}
+
+.img-coach-beranda {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;  
+  border-radius: 50%;
+}
+
+.img-coach-detail {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;  
+  border-radius: 50%;
+}
+
+.img-kelas-beranda {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;  
+}
+
+.no-padding {
+  padding:0px !important;
+}
+
+.border-category {
+  border: 1px solid #C4C4C4;
+  border-radius: 5px;
+}
+
+.border-category-active {
+  background-color: #7BD2F8;
+  border: 1px solid #7BD2F8;
+  border-radius: 5px;
+}
+
+.detail-list {
+  margin-bottom: -25px;
+}
+
+.detail-list-payment-dialog {
+  margin-bottom: -40px;
+}
+
+.detail-list-payment-dialog-2 {
+  margin-bottom: -55px;
+}
+
+.detail-list-payment-dialog-3 {
+  margin-bottom: -35px;
+}
+
+.detail-list-payment-dialog-4 {
+  margin-bottom: -70px;
+}
+
+.detail-list-payment-dialog-5 {
+  margin-bottom: -60px;
+}
+
+.detail-list-payment-dialog-6 {
+  margin-bottom: -50px;
+}
+
+.coach-list {
+  margin-bottom: -35px;  
+}
+
+.body-participant {
+  width: 95%;
+  
+}
+
+.participant-profile-card {
+  padding: 15px;
+}
+
+.register-card {
+  padding: 25px !important;
+}
+
+.schedule-register-padding {
+  padding-left: 20px;
+}
+
+.schedule-transaction-register-padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.padding-peserta {
+  padding-right: 0px !important;
+}
+
+.padding-row-register {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.padding-row-register-bottom {
+  padding-top: 0px;
+}
+
+.padding-checkbox {
+  margin-left: 20px !important;
+}
+
+.no-padding-left {
+  padding-left: 0px !important;
+}
+
+.no-padding-right {
+  padding-right: 0px !important;
+  margin-right: -10px !important;
+}
+
+.margin-top-row-register {
+  margin-top: -50px !important;
+}
+
+.margin-top-row-payment {
+  margin-top: -25px !important;
+}
+
+.margin-top-row-list-kelas {
+  margin-top: -10px !important;
+}
+
+.margin-top-row-payment-detail {
+  margin-top: -40px !important;
+}
+
+.margin-top-row-payment-biaya {
+  margin-top: -35px !important;
+}
+
+.right-registrasi {
+  justify-content: right;
+}
+
+.left-registrasi {
+  justify-content: left;
+}
+
+.height-registrasi {
+  height: 40px !important;
+}
+
+.color-card-payment-yellow {
+  border-right: 50px solid #F4F19F !important;
+}
+
+.color-card-payment-red {
+  border-right: 50px solid #F87B7B !important;
+}
+
+.color-card-payment-blue {
+  border-right: 50px solid #7BD2F8 !important;
+}
+
+.color-card-payment-green {
+  border-right: 50px solid #7DF87B !important;
+}
+
+.padding-list-kelas {
+  padding-left: 30px !important;
+}
+
+.padding-row-info-payment {
+  padding: 10px !important;
+  justify-content: center;
+}
+
+.padding-row-info-payment-card {
+  padding: 0px 35px 0px 35px !important;  
+}
+
+.padding-info-payment-yellow {
+  padding: 0px 10px 0px 10px !important;
+  width:95%;
+  background-color: #F4F19F;
+  color: #DCD980;
+}
+
+.padding-info-payment-blue {
+  padding: 0px 10px 0px 10px !important;
+  width:95%;
+  background-color: #7BD2F8;
+  color: #6BAFCC;
+}
+
+.padding-info-payment-green {
+  padding: 0px 10px 0px 10px !important;
+  width:95%;
+  background-color: #7DF87B;
+  color: #74c672;
+}
+
+.padding-info-payment-red {
+  padding: 0px 10px 0px 10px !important;
+  width:95%;
+  background-color: #F87B7B;
+  color: #D26C6C;
+}
+
+.info-payment {
+  line-height: 1rem !important;
+}
+
+.padding-bank {
+  padding: 30px !important;
+}
+
+.pointer-download:hover {
+  cursor: pointer;
+  color: #7BD2F8;
+  text-decoration: underline;
+}
+
+.btn-send-assessment {
+  align-self: end;
+}
+
+/* .gg {
+  
+} */
+
+.module-download:hover {
+  color: #7BD2F8;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.v-list .v-list-item--active {
+  color: #FFFFFF;
+  background-color: #7BD2F8;
+}
+
+.theme--light.v-icon {
+  color: #000000;
+}
+
+.theme--light.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
+  color: #000000;
+}
+
+.v-btn--icon.v-size--default .v-icon {
+  font-size: 30px;
+}
+
+.v-data-table__wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 300px;
+}
+
+.v-data-table>.v-data-table__wrapper>table>thead>tr>th {
+  font-size: 14px;
+  color: #000000 !important;
+}
+
+.mdi-plus-circle-custom::before {
+  content: "\F417";
+  color: #7BD2F8;
+}
+
+/* .v-application--is-ltr .v-input__prepend-outer {
+  
+} */
