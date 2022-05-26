@@ -9,21 +9,24 @@
             >
                 <v-carousel-item
                 v-for="(slide, i) in slides"
-                :key="i"
+                :key="i"                                
                 >
-                <v-sheet
-                    :color="colors[i]"
-                    height="100%"
+                <v-sheet                
+                height="100%"
+                tile
                 >
-                    <v-row
+                <v-row
                     class="fill-height"
                     align="center"
                     justify="center"
-                    >
-                    <div class="text-h2">
-                        {{ slide }} Slide
+                >
+                    <div class="">
+                        <v-img 
+                            class=""
+                            :src="carousel[i]">
+                        </v-img>
                     </div>
-                    </v-row>
+                </v-row>
                 </v-sheet>
                 </v-carousel-item>
             </v-carousel>
@@ -230,15 +233,13 @@ export default {
             coachingClinic: [],
             coachs: [],        
             schedules: [],
-            colors: [
-            'indigo',
-            'warning',
-            'pink darken-2',
+            carousel: [
+                'http://127.0.0.1:8000/images/slide_1.png',
+                'http://127.0.0.1:8000/images/slide_2.png',
             ],
             slides: [
             'First',
-            'Second',
-            'Third',
+            'Second',            
             ],
         };
     },
